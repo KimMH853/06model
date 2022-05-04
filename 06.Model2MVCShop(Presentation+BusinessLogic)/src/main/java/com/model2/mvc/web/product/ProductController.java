@@ -87,7 +87,7 @@ public class ProductController {
 	}
 
 	@RequestMapping("/updateProduct.do")
-	public String updateProduct(@ModelAttribute("product") Product product, Model model, HttpSession session)
+	public String updateProduct(@ModelAttribute("product") Product product, Model model)
 			throws Exception {
 
 		System.out.println("/updateProduct.do");
